@@ -13,6 +13,7 @@
 
 * How to use list datatype in terraform
 refer to variables
+```
  aws_vpc_security_group_ingress_rule.allow_tls_ipv4 will be created
   + resource "aws_vpc_security_group_ingress_rule" "allow_tls_ipv4" 
       + arn                    = (known after apply)
@@ -25,6 +26,7 @@ refer to variables
       + security_group_rule_id = (known after apply)
       + tags_all               = {}
       + to_port                = 443
+```
 
 
 
